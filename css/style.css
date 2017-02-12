@@ -1,0 +1,23 @@
+@import '//fonts.googleapis.com/css?family=Bangers';
+body {
+  margin: 0;
+  background-color: #000;
+  color: #fff; }
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: yellow; }
+
+.time-to {
+  text-align: center;
+  font-family: Bangers;
+  color: white;
+  font-size: 35px;
+  letter-spacing: 2px; }
+  .time-to span {
+    display: block;
+    font-size: 80px;
+    color: red; }
