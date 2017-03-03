@@ -1,12 +1,12 @@
 @import '//fonts.googleapis.com/css?family=Bangers';
 
-body { margin:0; background-color: #000; color: #fff;}
+body { margin:0; background-color: grey; color: #fff;}
 .wrap {
   display:flex;
   align-items:center;
   justify-content:center;
   height:100vh;
-  background: yellow;
+  background: green;
 }
 .time-to {
   text-align:center;
@@ -19,4 +19,39 @@ body { margin:0; background-color: #000; color: #fff;}
     font-size:80px;
     color:red;
   }
+}
+
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+#clockdiv > div{
+  padding: 10px;
+  border-radius: 3px;
+  background: #00BF96;
+  display: inline-block;
+}
+
+#clockdiv div > span{
+  padding: 15px;
+  border-radius: 3px;
+  background: #00816A;
+  display: inline-block;
+}
+
+.smalltext{
+  padding-top: 5px;
+  font-size: 16px;
 }

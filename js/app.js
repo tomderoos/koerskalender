@@ -1,4 +1,4 @@
-var app = angular.module("myApp", ["ngRoute"]);
+var app = angular.module('myApp', ["ngRoute"]);
 app.config(function($routeProvider) {
     $routeProvider
     .when("/", {
@@ -17,10 +17,7 @@ app.config(function($routeProvider) {
         templateUrl : "./partials/omloop-het-nieuwsblad.html"
     });
 
-});
-
-    (function() {
-  angular.module('koerscount', []).directive('countdown', [
+  app.directive('countdown', [
     'Util', '$interval', function(Util, $interval) {
       return {
         restrict: 'A',
